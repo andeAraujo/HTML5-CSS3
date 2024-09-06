@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "idroid";
+    src: url(../assets/fonts/idroid.otf) format(opentype);
+}
+
+header {
+    background-image: linear-gradient(to top, #155030, #3CD983);
+    display: block;
+    width: 100vw;
+    padding: 10px;
+}
+
+nav > a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+body {
+    background-color: #84E1AD;;
+}
+
+#top {
+    text-align: center;
+    color: #ffffff;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 650px;
+    background-color: #ffffff;
+    margin: -19px auto;
+    border-radius: 5px;    
+    box-shadow: 4px 1px 5px #80808077, -4px 1px 5px #8080806e;
+}
+
+main > p {
+    text-align: justify;
+}
+
+img {
+    width: 100%;
+}
+
+#bugdroid {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h2 {
+    font-family: "idroid", Arial, Helvetica, sans-serif;
+    color: #185835;
+    padding: 15px 15px;
+}
+
+h3 {
+    font-family: "idroid", Arial, Helvetica, sans-serif;
+    color: #185835;
+    padding: 15px 15px;
+    background-image: linear-gradient(to right, #46f79638, #2ac47202);
+    padding: 1px 15px;
+}
+
+.iframe-container {
+    background-color: #155030;
+    padding: 15px 10px;
+}
+
+.iframe-container > iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+p {
+    text-indent: 2em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside > p {
+    background-color: #2FA866;
+    color: #ffffff;
+    font-weight: bold;
+    text-indent: 0%;
+    padding: 5px;
+    margin: 10px auto 0;
+    width: 610px;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#extra {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    width: 610px;
+    border-radius: 5px;
+    box-shadow: 4px 1px 4px 2px #1550303a;
+    background-color: #C5EBD6;
+}
+
+footer {
+    background-color: #1A5C38;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+
+}
